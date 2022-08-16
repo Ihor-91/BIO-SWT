@@ -1,0 +1,58 @@
+.materials{
+    margin-top: 266px;
+    
+    .materials__wrapper{
+        
+        .materials__title{
+            max-width: 74.6rem;
+            width: 100%;
+            margin-left: 23.4rem;
+            line-height: 11.961rem;            
+            
+        }
+
+        .materials__block{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12.5rem;
+
+            .block__item{
+                max-width: 27.7rem;
+                width: 100%;
+
+                .item__images{
+                    max-width: 20.5rem;
+                    width: 100%;
+                    height: auto;
+                    border-radius: 4.2rem;
+                    margin-bottom: 3.3rem;
+                }
+
+                .item__name{
+                    margin-left: 7.3rem;
+                    margin-bottom: 4.4rem;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+
+                .item__list{
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 36px;
+                    list-style-image: url(../../assets/images/check-mark.svg);
+
+                    .item__properties{
+                        margin-bottom: 2.4rem;
+
+
+                        &.item__properties-cros{
+                            list-style-image: url(../../assets/images/cros-mark.svg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
